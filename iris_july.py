@@ -28,7 +28,7 @@ st.write(df)
 
 iris = pd.read_csv('https://raw.githubusercontent.com/SSofiah/Iris_July/main/IRIS.csv')
 X = iris.data
-Y = iris.target
+Y = iris.species
 iris = pd.read_csv('https://raw.githubusercontent.com/SSofiah/iris-july/main/IRIS.csv')
 X = iris.drop('species',axis = 1)
 
