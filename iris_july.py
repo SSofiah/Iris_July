@@ -7,6 +7,7 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
+st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Blue_Flag%2C_Ottawa.jpg/800px-Blue_Flag%2C_Ottawa.jpg")
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
